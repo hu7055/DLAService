@@ -47,7 +47,7 @@ public class IndexController {
 
     @GetMapping("/")
     public ModelAndView index(HttpServletRequest request) {
-        
+        logger.debug("from master");
     	ModelAndView mav = new ModelAndView();
     	
     	mav.addObject("result", "success");

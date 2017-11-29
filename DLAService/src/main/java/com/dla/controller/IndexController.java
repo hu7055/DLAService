@@ -27,8 +27,6 @@ import org.springframework.web.servlet.ModelAndView;
 import com.dla.document.Borrower;
 import com.dla.document.Users;
 import com.dla.model.AjaxResponseBody;
-import com.dla.model.SearchCriteria;
-import com.dla.model.User;
 import com.dla.services.BorrowerService;
 import com.dla.services.UserService;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -49,7 +47,7 @@ public class IndexController {
     public ModelAndView index(HttpServletRequest request) {
         
     	ModelAndView mav = new ModelAndView();
-    	
+    	logger.debug("test");
     	mav.addObject("result", "success");
     	mav.setViewName("pages/index");
     	

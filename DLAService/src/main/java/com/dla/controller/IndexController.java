@@ -47,6 +47,9 @@ public class IndexController {
     public ModelAndView index(HttpServletRequest request) {
         
     	ModelAndView mav = new ModelAndView();
+    	
+    	logger.debug("test");
+    	
     	logger.debug("test");
     	logger.debug("sprint2");
     	mav.addObject("result", "success");

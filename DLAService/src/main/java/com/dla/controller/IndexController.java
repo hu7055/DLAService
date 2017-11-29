@@ -47,7 +47,7 @@ public class IndexController {
     public ModelAndView index(HttpServletRequest request) {
         logger.debug("from master");
     	ModelAndView mav = new ModelAndView();
-    	logger.debug("test2");
+    	logger.debug("test7");
     	mav.addObject("result", "success");
     	mav.setViewName("pages/index");
     	

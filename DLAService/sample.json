@@ -1,0 +1,64 @@
+{
+  "id": "1",
+  "coremandateType": "smaple1",
+  "authorityId": "1234",
+  "limits": [
+    {
+      "id": "1001",
+      "limitType": "CEAS_ODR",
+      "ranges": [
+        {
+          "id": "2001",
+          "limitIndex": "0",
+          "value": "10000"
+        },
+        {
+          "id": "2002",
+          "limitIndex": "10",
+          "value": "5000"
+        },
+        {
+          "id": "2003",
+          "limitIndex": "26",
+          "value": "3000"
+        },
+        {
+          "id": "2004",
+          "limitIndex": "50",
+          "value": "1000"
+        },
+        {
+          "id": "2005",
+          "limitIndex": "99",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": "1002",
+      "limitType": "ICAP_ORR",
+      "ranges": [
+        {
+          "id": "3001",
+          "limitIndex": "0",
+          "value": "15000"
+        },
+        {
+          "id": "3002",
+          "limitIndex": "25",
+          "value": "5000"
+        },
+        {
+          "id": "3003",
+          "limitIndex": "60",
+          "value": "2000"
+        },
+        {
+          "id": "3003",
+          "limitIndex": "60",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}
